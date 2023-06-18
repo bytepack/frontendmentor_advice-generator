@@ -17,7 +17,7 @@ function start(){
 }
 
 async function getAdvice() {
-    const url = "https://api.adviceslip.com/advice/71"
+    const url = "https://api.adviceslip.com/advice"
     try {
         const response = await fetch(url)
         if (!response.ok) {
