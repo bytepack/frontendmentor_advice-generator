@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advice generator</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<main>
+    <div class="advice">
+        <h1 class="advice__title">Advice<span class="advice_hashtag">#</span><span class="advice__id" data-advice-id>--</span></h1>
+        <p class="advice__advice">“<span class="advice__text" data-advice>
+                _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+            _ _ _ _ _ _ _ _
+            </span>”
+        </p>
+        <picture>
+            <source media="(min-width: 37.5)" srcset="/images/pattern-divider-desktop.svg">
+            <img class="advice__divider" src="/images/pattern-divider-mobile.svg" alt="divider">
+        </picture>
+        <div class="advice__photo-container" data-dice>
+            <img class="advice__photo" data-photo-dice src="/images/icon-dice.svg" alt="dice">
+        </div>
+    </div>
+</main>
+</body>
+</html>
